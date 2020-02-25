@@ -127,7 +127,12 @@ a:hover, #header.nav-solid nav a:hover {
     background: url("../images/wheel.png") no-repeat center top;
     background-size:cover;
 }
-
+@media (max-width: 767px) {
+    #banner {
+        background: none;
+        background-size:cover;
+    }
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */

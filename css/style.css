@@ -2102,7 +2102,7 @@ blockquote {
 
 /* Landscape mobile & down
 ===============================*/
-@media (max-width: 480px) {
+@media (max-width: 760px) {
 
     #wrapper {
         margin:0;
@@ -2219,6 +2219,10 @@ blockquote {
         width: 50%;
     }
 
+    .col-3 {
+        width: 100%;
+    }
+
     /*-----------------Header Elements-----------------*/
     #header .row {
         padding: 0 !important;
@@ -2263,8 +2267,8 @@ blockquote {
 
     /* Footer */
     #landing-footer #copyright {
-        float: left;
-        width: 50%;
+        
+        width: 100%;
     }
 
     #landing-footer .social-icons {
